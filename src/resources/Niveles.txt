@@ -1,0 +1,3 @@
+# Niveles del juego
+# Dado que se tienen 5 niveles en el juego, en el archivo se deben guardar los puntajes de cada nivel, en orden ascendente
+100;1000;10000;100000;1000000

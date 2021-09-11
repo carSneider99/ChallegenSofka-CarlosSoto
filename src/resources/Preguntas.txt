@@ -1,0 +1,7 @@
+# Dado que cada pregunta tiene 4 opciones de respuestas, 3 erradas y una correcta, se propone el siguiente formato para almacenar las 
+# preguntas en un docuemnto de texto: 
+# Nivel; Pregunta; Respuesta Correcta; 3 respuestas incorrectas
+1; Ayer fue martes, ¿Qué día será mañana?; Jueves;  Miércoles; Lunes; Viernes
+2; ¿Cuál es la principal unidad de medida de longitud?; Metro; Kilogramos; Litro; Centímetro
+3; ¿Qué instrumento se utiliza para medir longitudes?;  Una regla; Una calculadora; Un vaso; Una báscula
+
