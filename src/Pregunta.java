@@ -40,9 +40,7 @@ public class Pregunta {
 		String mostrar = pregunta; 
 		for (String opcion : opcionesRespuesta){
 			mostrar = mostrar + "\n" + opcion;
-		}
-		
+		}	
 		return mostrar;
 	}
-	
 }
