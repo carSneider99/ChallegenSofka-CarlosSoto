@@ -110,9 +110,12 @@ public class ControladorJuego {
     }
     
     public int getPuntajePorNivel(int nivel) throws Exception{
-    	if (nivel > 0 && nivel <= cantidadNiveles)
-    		return puntajesPorNivel[nivel-1];
-    	else{
+    	if (nivel > 0 && nivel <= cantidadNiveles){
+    		int puntaje = puntajesPorNivel[nivel-1];
+    		if (puntaje <= 0)
+    			throw new Exception("El puntaje del nivel " + nivel + " debe ser mayor a cero, Por favor corrija en el archivo Niveles.txt");
+    		return puntaje;
+    	}else{
     		// Excepción, dado que el nivel es mayor al nivel máximo
     		System.err.println("Error en el nivel, el nivel supera el máximo permitido");
     		throw new Exception();

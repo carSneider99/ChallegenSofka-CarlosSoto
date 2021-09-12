@@ -66,7 +66,7 @@ public class ConcursoPreguntas {
 		ControladorJuego cp = new ControladorJuego(cantidadNiveles);
 		cp.cargarConfiguracion();
 		boolean continuarJuego = true;
-		for (int nivel = 1; nivel <= 5; nivel++){
+		for (int nivel = 1; nivel <= cantidadNiveles; nivel++){
 			try {
 				Pregunta pre = cp.getPreguntaPorNivel(nivel);
 				String[] options = pre.desordenar();
