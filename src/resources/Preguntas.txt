@@ -1,7 +1,25 @@
-# Dado que cada pregunta tiene 4 opciones de respuestas, 3 erradas y una correcta, se propone el siguiente formato para almacenar las 
-# preguntas en un docuemnto de texto: 
-# Nivel; Pregunta; Respuesta Correcta; 3 respuestas incorrectas
-1; Ayer fue martes, ¿Qué día será mañana?; Jueves;  Miércoles; Lunes; Viernes
-2; ¿Cuál es la principal unidad de medida de longitud?; Metro; Kilogramos; Litro; Centímetro
-3; ¿Qué instrumento puede ser utiliza para medir longitudes?;  Una regla; Una calculadora; Un vaso; Una báscula
-
+1;Ayer fue martes, ¿Qué día será mañana?;Jueves;Miércoles;Lunes;Viernes
+1; ¿Cuál es la principal unidad de medida de longitud?;Metro;Kilogramos;Litro;Segundo
+1;¿Cuál es el mayor número de 4 decenas?;49;47;94;46
+1;¿Qué serie es correcta?;8>7>6;36>37>38;23>24>25;10>11>12
+1; ¿Qué instrumento puede ser utilizo para medir longitudes?;Una regla;Una calculadora;Un vaso;Una báscula
+2;¿Qué mes no tiene 31 días?;Septiembre;Enero;Diciembre;Octubre
+2;Ana empezó a estudiar a las 6:45. LLeva un cuarto de hora estudiando ¿Qué hora es?;7:15;7:45;6:30;7:00
+2;¿Cuántos meses tienen 30 días?;5;3;4;6
+2;¿Cuántos unidades le faltan al número 397 para tener 4 centenas?;3;1;7;23
+2;¿Qué número tiene 3 centenas más que 127?;427;175;130;457
+3;¿Qué fracción representa el doble de la tercera parte de la unidad?;2/3;1/4;1/3;4/3
+3;¿Cuántos ángulos tiene un pentágono?;5;6;3;4
+3;¿Cuántos lados tiene un hexágono?;6;3;5;4
+3;Si hoy es miércoles 3 de octubre,  ¿Qué fecha fue hace 5 días?;Viernes 28 de septiembre; Sábado 29 de septiembre; Sábado 30 de septiembre; Viernes 29 de septiembre
+3;¿Cuántos minutos son 2 horas y 40 minutos?;160;140;180;120
+4;¿Qué cuadrilátero no es un paralelogramo?;Trapecio;Romboide;Rombo;Rectángulo
+4;¿Cuál de los siguientes cuerpos geométricos no es un poliedro?;Cono;Pirámide;Cubo;Prisma
+4;¿Cuántas horas y minutos son tres cuartos de hora más medio hora?;1h y 15min;2h y 30min;2h y 15min;1h y 30min
+4;¿Cuántos meses hay en 3 trimestres y 1 semestre?;15;12;10;9
+4;¿Cuántos Kg en total habrá en 24 paquetes si en cada uno hay 3Kg de arroz y 6 Kg de pasta?;216;126;246;316
+5;¿Cuántas horas y minutos son 328 minutos?;5h y 28min;3h y 24min;6h y 33min;4h y 59min
+5;A qué es igual 13h 22min - 12h 56min?;26min;37min;1h 12min;36min
+5;Encuentre 98754+57328;156082;165832;155092;156083
+5;¿Qué operación da como resutado 42?;(3+5)x5+2;(3+5)x(5+2);3+5x5+2;3+5x(5+2)
+5;Resuelva (5+5)x5x5+5-5+10/2;155;80;241;60
